@@ -52,3 +52,6 @@ JOIN album ON track.album_id = album.album_id
 JOIN artist_album ON album.album_id = artist_album.album_id
 JOIN artist ON artist_album.artist_id = artist.artist_id
 WHERE artist.name = 'Кино';
+
+
+
