@@ -20,6 +20,8 @@ INSERT INTO album (title, release_year) VALUES ('Квартет', 2000);
 INSERT INTO album (title, release_year) VALUES ('Иначе', 2013);
 INSERT INTO album (title, release_year) VALUES ('Морская', 1997);
 INSERT INTO album (title, release_year) VALUES ('Энергия', 1991);
+INSERT INTO album (title, release_year) VALUES ('Новое начало', 2019);
+INSERT INTO album (title, release_year) VALUES ('Возвращение', 2020);
 
 -- Вставка данных в таблицу треков
 INSERT INTO track (title, duration, album_id) VALUES ('Звезда по имени Солнце', 280, 1);
@@ -33,6 +35,8 @@ INSERT INTO track (title, duration, album_id) VALUES ('Иначе', 350, 4);
 INSERT INTO track (title, duration, album_id) VALUES ('Уходи', 270, 5);
 INSERT INTO track (title, duration, album_id) VALUES ('Энергия', 310, 6);
 INSERT INTO track (title, duration, album_id) VALUES ('Гуляй, Вася!', 275, 6);
+INSERT INTO track (title, duration, album_id) VALUES ('Мой путь', 230, 7);
+INSERT INTO track (title, duration, album_id) VALUES ('My Love', 240, 8);
 
 -- Вставка данных в таблицу сборников
 INSERT INTO compilation (title, release_year) VALUES ('Лучшие рок-хиты', 1995);
@@ -61,6 +65,8 @@ INSERT INTO artist_album (artist_id, album_id) VALUES (4, 1);
 INSERT INTO artist_album (artist_id, album_id) VALUES (5, 4);
 INSERT INTO artist_album (artist_id, album_id) VALUES (6, 5);
 INSERT INTO artist_album (artist_id, album_id) VALUES (6, 6);
+INSERT INTO artist_album (artist_id, album_id) VALUES (1, 7);
+INSERT INTO artist_album (artist_id, album_id) VALUES (4, 8);
 
 -- Вставка данных в таблицу compilation_track (связь треков с сборниками)
 INSERT INTO compilation_track (compilation_id, track_id) VALUES (1, 1);
@@ -78,3 +84,5 @@ INSERT INTO compilation_track (compilation_id, track_id) VALUES (6, 9);
 INSERT INTO compilation_track (compilation_id, track_id) VALUES (6, 3);
 INSERT INTO compilation_track (compilation_id, track_id) VALUES (7, 10);
 INSERT INTO compilation_track (compilation_id, track_id) VALUES (7, 11);
+INSERT INTO compilation_track (compilation_id, track_id) VALUES (5, 12);
+INSERT INTO compilation_track (compilation_id, track_id) VALUES (6, 13);
