@@ -2,7 +2,7 @@
 from telebot import types
 from database import fetch_word, fetch_random_words, insert_user_word, delete_user_word, connect_db
 from api import get_example_usage
-from states import MyStates  # Import MyStates from states.py
+from states import MyStates
 
 COMMANDS = {
     'ADD_WORD': 'Добавить слово ➕',
