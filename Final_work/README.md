@@ -23,7 +23,7 @@
 ### Установка
 1. Склонируйте репозиторий:
    ```bash
-   git clone https://github.com/ваш-репозиторий
+   git clone https://github.com/Venche1980/Data_Base/tree/main/Final_work
    cd ваш-репозит
 
 ### Установка
