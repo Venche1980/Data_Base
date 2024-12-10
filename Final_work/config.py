@@ -5,4 +5,4 @@ DB_CONFIG = {
     'host': 'localhost'
 }
 
-BOT_TOKEN = '  '
+BOT_TOKEN = 'YOUR TOKEN '
