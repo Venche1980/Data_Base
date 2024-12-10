@@ -48,6 +48,7 @@ INSERT INTO Words (word_en, word_ru, category) VALUES
 ('strawberry', 'клубника', 'фрукты'),
 ('watermelon', 'арбуз', 'фрукты'),
 
+
 -- Овощи
 ('carrot', 'морковь', 'овощи'),
 ('potato', 'картофель', 'овощи'),
