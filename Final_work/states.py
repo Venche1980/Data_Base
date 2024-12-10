@@ -5,3 +5,4 @@ class MyStates(StatesGroup):
     target_word = State()
     translate_word = State()
     another_words = State()
+
