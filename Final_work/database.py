@@ -1,7 +1,7 @@
 # database.py
 import psycopg2
 from contextlib import contextmanager
-from config import DB_CONFIG  # Import the database configuration
+from config import DB_CONFIG
 
 @contextmanager
 def connect_db():
@@ -46,4 +46,4 @@ def delete_user_word(cid, word_en):
         cur.execute("DELETE FROM UserWords WHERE user_id = %s AND word_en = %s", (cid, word_en))
         conn.commit()
 
-# Add more database functions as needed
+
