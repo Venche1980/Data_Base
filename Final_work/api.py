@@ -1,5 +1,6 @@
 import requests
 
+
 def get_example_usage(word):
     try:
         response = requests.get(f"https://api.dictionaryapi.dev/api/v2/entries/en/{word}")
